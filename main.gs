@@ -91,5 +91,10 @@ function probarBuscar() {
 }
 
 function runFormSubmit(e) {
+  const logObject = JSON.stringify(e.values);
+  Logger.log(` 
+    Datos entrantes:
+    ${logObject}
+  `);
   runScript(e);
 }
