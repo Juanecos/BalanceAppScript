@@ -29,8 +29,8 @@ function runScript(e){
     subject: "Tus beneficios",
     htmlBody: template
   });
-  Logger.log(response.formmatedData);
-  Logger.log(response.data);
+  // Logger.log(response.formmatedData);
+  // Logger.log(response.data);
 
 }
 
